@@ -1,0 +1,180 @@
+.navb{
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.title-name{
+    font-size:x-large;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+.search{
+    border-radius: 60px;
+    width: 400px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    height: 40px;
+    margin-top: 5px;
+}
+.content{
+    margin-left: 10vw;
+    display: flex;
+
+}
+.searchbars{
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 10px;
+    display: flex;
+}
+.myBtn{
+    padding-left: 13px;
+    position: relative;
+    left: -16px;
+    top: 10px;
+}
+.labelsearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 12px;
+    position: relative;
+    top: 3px;
+}
+.names{
+    color: black;
+    text-decoration: none;
+}
+.names:hover{
+    text-decoration: none;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+}
+.name>h4{
+    font-size: medium;
+    cursor: pointer;
+
+}
+.linkshead{
+    display: flex;
+    text-decoration: none;
+}
+.linkshead:hover{
+    text-decoration: none;
+}
+.linkshead>h4{
+    color: black;
+}
+.li{
+    
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    align-items: center;
+    height: 70px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5vw;
+    margin-top: 5px;
+}
+.menu>h4{
+    font-size: 20px;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 7vw;
+    object-fit: cover;
+}
+.links{
+    padding-left: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.Icon{
+    margin-left: 1vw;
+    cursor: pointer;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+.menicon{
+    margin-left:8vw;
+    display: flex;
+}
+@media only screen and (max-width: 1373px){
+    .names{
+        margin-left: -7vw;
+    }
+}
+
+@media only screen and (max-width: 1273px)
+{   .image{
+    margin-left: -2vw;
+}
+
+
+
+}
+@media only screen and (max-width: 1110px){
+    .searchbars{
+        margin-left: -10vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navb{
+        width: 526px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        
+    margin-left: -50px;
+
+    }
+    .linkshead{
+        /* justify-content: space-around; */
+    }
+    .searchbars{
+        margin-top: 20px;
+    }
+    .labelsearch{
+        
+    margin-left: 40px;
+
+    }
+    .image{
+        position: absolute;
+        right: 15px;
+        top: 168px;
+
+    }
+    .names{
+        position: relative;
+        left: -115px;
+        top: 11px;
+    }
+}

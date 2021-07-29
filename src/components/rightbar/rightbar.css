@@ -1,0 +1,160 @@
+.rightbar{
+    flex:3.5;
+}
+.rightbarWrapper{
+    padding: 20px 20px 0 0;
+}
+.birhdayImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+.birhtdaytext{
+    font-weight: 300;
+    font-size: 15px;
+}
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+
+}
+.rightbarFollowButton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    background-color: #1872f2;
+}
+.rightbarAd{
+    width: 100%;
+    border-radius: 10px;
+    margin:30px 0
+}
+.rightbarfriendlist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.rightbarfriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.rightbarprofileimagecontainer{
+    margin-right: 10px;
+    position: relative;
+}
+.rightbarprofileimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rightbarTitle{
+    margin-bottom: 20px;
+}
+.rightbarFollowingname{
+    color: black;
+    margin-left: 14px;
+}
+.rightbaronline{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    border: 2px solid white;
+}
+.rightbarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.rightbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+.rightbarInfoValue{
+    font-weight:300;
+
+}
+.update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightbarfollowingimage{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.updateuser{
+    position: relative;
+    left: -10px;
+}
+.rightbarInfoitem{
+    margin-bottom: 10px;
+}
+.rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.righbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    cursor: pointer;
+
+}
+.upbutton{
+    position: relative;
+    left: -225px;
+    width: 150px;
+    margin-bottom: 20px;
+
+} 
+.inputbutton{
+    border: none;
+    padding: 10px;
+    margin: 5px;
+
+}
+.inputform{
+    border-radius: 1px;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border:none ;
+    border-bottom: 1px solid gray;
+
+}
+.toastup{
+    width: 300px;
+    position: relative;
+    top: 50px;
+}
+.updateform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .rightbar{
+        display: none;
+    }
+  }
